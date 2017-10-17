@@ -1,0 +1,688 @@
+/*Dans ce fichier de css, on definie des styles qui sont utiles pour rendre le website jolie. */
+
+html {
+    background: url(../images/templatemo_html_bg.jpg) repeat;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.5em;
+    color: #000;
+    background: url(../images/templatemo_page_bg.jpg) repeat-x center top;
+    width: 100%;
+    display: table;
+}
+li{
+    color: #fff;
+}
+
+a:link, a:visited { color: #fff; text-decoration: none; } 
+a:active, a:hover { color: #b2dba1; text-decoration: none; cursor: pointer; }
+
+/*---le container tout entier---*/
+.mycontainer {
+    margin: 0 14em;
+}
+/*---le navigation bar---*/
+.navbar {
+    margin-bottom: 0;
+    height: 80px;
+}
+
+/*navigation bar left*/
+.navbar-left {
+    font-family: 'Roboto Condensed', sans-serif;
+    float: left;
+    width: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 34px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    background: url(../images/templatemo_logo.png) no-repeat;
+}
+.navbar-left img {
+    float: left;
+}
+.navbar-left p {
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-left p span {
+    font-size: 28px;
+    font-weight: bold;
+}
+/*navigation bar left fini*/
+
+/*navigation bar right*/
+.navbar-right {
+    float: right;
+    margin-top: 30px;
+    height: 100px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-right li{
+    display: inline;
+}
+
+.navbar-right li a {
+    color: #fff;
+}
+
+.normal {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    height: 24px;
+    margin-left: 10px;
+    padding-top: 4px;
+    padding-right: 20px;
+}
+
+.double {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    height: 24px;
+    padding-top: 4px;
+}
+
+.navbar-right li a:hover, .navbar-right li .current{
+    color: #b2dba1;
+}
+/*navigation bar right fini*/
+/*---navigation bar fini---*/
+
+/*---banner qui contient l'image au-dessous de navigation---*/
+.banner {
+    text-align: center;
+    width: 100%;
+    height: 340px;
+    margin-top: 0;
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: 95%;
+}
+/*---banner fini---*/
+
+/*---contenu---*/
+/*contenu left column: sidemenu*/
+.content_left_column {
+    float: left;
+    margin-top: 1em;
+    margin-left: 20px;
+}
+
+.content_left_menu {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.content_left_menu ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin:10px;
+}
+.content_left_menu li a {
+    display: block;
+    font-size: 15px;
+    color: #3c4826;
+    padding: 5px 0;
+    margin-left: 10px;
+}
+.content_left_menu li a:hover, .content_left_menu li .current {
+    color: #000;
+}
+.button_faux {
+    font-family: Tahoma, "Arial Black";
+    float: left;
+    width: 250px;
+    padding: 12px 0px 0px 50px;
+    margin: 20px 0px 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    height: 40px;
+    background: url(../images/templatemo_h3.png) no-repeat;
+}
+/*contenu left column fini*/
+
+/*contenu right column: contenu principal*/
+.content_right_column {
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.content_right_column p span {
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+}
+.content_right_column p {
+    font-size: 14px;
+    font-family: "Helvetica", sans-serif;
+}
+
+/*contenu right top*/
+.content_right_top {
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 130px;
+}
+
+.content_right_top h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background: url(../images/bienvenue.png) repeat-x;
+    background-position: left;
+    height: 118px;
+    padding-left: 38px;
+    margin-top: 20px;
+}
+
+/*contenu right middle*/
+.content_right_mid {
+    width: 100%;
+    float: left;
+    background: #fff;
+    color: #666666;
+    padding: 0px 45px 20px 45px;
+    text-align: justify;
+}
+
+.content_right_mid h2 {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    height: 40px;
+    background: url(../images/templatemo_h2.jpg) repeat-x;
+}
+
+.content_right_mid_publier img {
+    float: right;
+    padding-left: 10px;
+}
+.content_right_mid_publier p {
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+.content_right_mid_adopter img {
+    float: right;
+    padding-right: 10px;
+}
+.content_right_mid_adopter p {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+.content_right_mid strong {
+    float: right;
+    background: url(../images/templatemo_star.jpg) no-repeat;
+    background-position: right;
+    color: #eec400;
+}
+
+/*contenu right bottom*/
+.content_right_bot {
+    float: right;
+    margin-top: 0px;
+    padding-top: 50px;
+    width: 561px;
+    height: 25px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*le style de button qui est utilise partout dans le site*/
+.mybutton {
+    float: right;
+    width: 100px;
+    height: 30px;
+    padding: 4px 0px 0px 12px;
+    margin-top: 20px;
+    font-family: Tahoma, "Arial Black";
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: url(../images/templatemo_top_button.png) no-repeat;
+}
+.mybutton a {
+    color: #fff;
+}
+.mybutton a:hover {
+    color: #008800;
+}
+
+/*---le footer---*/
+.container {
+    padding: 0 16px;
+}
+.container-top {
+    height: 70px;
+    background: url(../images/footer.png) repeat-x center;
+    font-size: 22px;
+    font-family: "Helvetica", sans-serif;
+    color: #fff;
+    padding: 26px 40px;
+    margin-bottom: 20px;
+}
+.container-bottom a{
+    font-size: 13px;
+    color: #4CAF50;
+    margin-left: 120px;
+    font-family: "Helvetica", sans-serif;
+}
+.myfooter {
+    background: url(../images/footer.png) repeat-x center;
+    height: 76px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 28px 15px;
+}
+.myfooter a{
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+    padding: 0 20px;
+    color: white;
+}
+.myfooter a:hover{
+    color: #b2dba1;
+}
+/*---le footer fini---*/
+
+/*input style dans la fenetre de login*/
+#logininput {
+    width: 275px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-color: #4CAF50;
+    box-sizing: border-box;
+    text-align: center;
+    color: #000;
+}
+
+/*le button pour login*/
+.loginbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 95px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+}
+.loginbutton:hover {
+    opacity: 0.6;
+}
+
+/*le button pour annuler un compte*/
+.annulerbutton {
+    float : right;
+    background-color: #dca7a7;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+.annulerbutton:hover {
+    opacity: 0.8;
+}
+
+/*le button pour cancel*/
+.cancelbtn {
+    width: 80px;
+    padding: 10px 20px;
+    margin-left: 94px;
+    background-color: #f44336;
+}
+
+/* The Modal (background) pour ejecter une fenetre */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.modal p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+/* Modal Content/Box: la fenetre*/
+.modal-content {
+    background-color: #fefefe;
+    margin-top: 200px;
+    margin-left: 40%;
+    border: 1px solid #888;
+    width: 400px;
+    height: auto;
+    padding-bottom: 15px;
+    position: relative;
+    font-size: 13px;
+}
+.modal-content label{
+    color: #008800;
+    font-size: 14px; 
+    margin-left: 20px;
+}
+
+/*la fenetre pour adopter et publier*/
+.modal-content-adopter {
+    background-color: #fefefe;
+    margin-top: 20px;
+    margin-left: 40%;
+    border: 1px solid #888;
+    width: 400px;
+    height: auto;
+    padding-bottom: 15px;
+    position: relative;
+    font-size: 13px;
+}
+.modal-content-adopter label{
+    color: #008800;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.modal-content-adopter input[type=file] {
+    margin-left: 20px;
+}
+#detail label {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    color: #000;
+    font-size: 20px;
+    color: #fff;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/*---le testbox pour creer un compte---*/
+.testbox input, textarea, select {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.testbox p {
+    font-size: 14px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.testbox h1 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #008800;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.testbox h3 {
+    font-size: 22px;
+    width: 500px;
+    display: inline-block;
+    color: #4CAF50;
+    margin-left: 60px;
+}
+
+.testbox {
+    margin: 20px auto; 
+    width: auto;
+    height: auto;
+    -webkit-border-radius: 8px/7px; 
+    -moz-border-radius: 8px/7px; 
+    border-radius: 8px/7px; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    border: solid 1px #cbc9c9;
+    padding-bottom: 30px;
+}
+
+.testbox input[type=radio] {
+    visibility: hidden;
+}
+
+.testbox form{
+    margin: 0 30px;
+}
+
+.testbox label.radio {
+    cursor: pointer;
+    text-indent: 40px;
+    overflow: visible;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.testbox label.radio:before {
+    background: #4CAF50;
+    content:'';
+    position: absolute;
+    top:2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.testbox label.radio:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 0.5em;
+    height: 0.25em;
+    background: transparent;
+    top: 7.5px;
+    left: 5px;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-right: none;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.testbox input[type=radio]:checked + label:after {
+    opacity: 1;
+}
+
+.testbox hr{
+    color: #a9a9a9;
+    opacity: 0.5;
+}
+
+.testbox input[type=text],input[type=password],input[type=email]{
+    width: 240px; 
+    height: 39px; 
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+    border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    background-color: #fff; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 1px #cbc9c9;
+    margin-left: -5px;
+    margin-top: 15px; 
+    padding-left: 10px;
+}
+
+/*les icons dans le box de creer un compte*/
+#icon {
+    display: inline-block;
+    width: 40px;
+    background-color: #4CAF50;
+    padding: 10px 0px 10px 15px;
+    margin-left: 15px;
+    -webkit-border-radius: 4px 0px 0px 4px; 
+    -moz-border-radius: 4px 0px 0px 4px; 
+    border-radius: 4px 0px 0px 4px;
+    color: white;
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 0px #cbc9c9;
+}
+
+.accounttype{
+    margin: 15px 40px;
+    font-size: 22px;
+}
+
+.testbox a.button {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 6px 25px 0px 20px;
+    margin: 10px 8px 20px 0px;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    width: 50px; height: 27px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #3a57af; 
+    -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
+    -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+    box-shadow: 0 3px rgba(58,87,175,.75);
+    transition: all 0.1s linear 0s; 
+    top: 0px;
+    position: relative;
+}
+
+.testbox a.button:hover {
+    top: 3px;
+    background-color:#2e458b;
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    box-shadow: none;
+
+}
+
+.registerbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 170px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    font-size: 14px;
+}
+/*---le textbox pour creer un compte fini---*/
+
+/*infobutton style*/
+.info {
+    padding: 20px 20px;
+}
+
+.infobutton {
+    float: right;
+    width: 100px;
+    height: 30px;
+    padding: 4px 0px 0px 12px;
+    margin-top: 20px;
+    font-family: Tahoma, "Arial Black";
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: url(../images/templatemo_top_button.png) no-repeat;
+}
+
+.infobutton a {
+    color: #fff;
+}
+
+/*pagebutton style*/
+.pagebutton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+.pagebutton:hover {
+    opacity: 0.6;
+}
+
+.psw {
+    font-size: 12px;
+    color: #f44336;
+    padding-bottom: 30px;
+}
